@@ -1,0 +1,26 @@
+{
+  "name": "symfony_golos",
+  "version": "1.0.0",
+  "description": "Symfony Standard Edition ========================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node webpack.dev-server.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "1.16.5"
+  },
+  "dependencies": {
+    "babel-loader": "^4.*.*",
+    "react": "^0.*.*",
+    "react-hot-loader": "^1.*.*"
+  }
+}
